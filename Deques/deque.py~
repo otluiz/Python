@@ -1,0 +1,7 @@
+class __init__ Deque:
+    def __init__(self, capacidade):
+        self.capacidade = capacidade
+        self.inicio = -1
+        self.final = 0
+        self.num_elementos = 0
+        self.valores = np.empty(self.capacidade, dtyp -init)
